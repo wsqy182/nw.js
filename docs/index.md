@@ -1,19 +1,20 @@
-# NW.js Documentation for 0.13 and later
+# NW.js 文档 [0.13+]
 ---
 
-> [NW.js](http://nwjs.io) lets you call all [Node.js](https://nodejs.org/) [modules](https://www.npmjs.org/) directly from DOM and enables a new way of writing applications with all Web technologies. It was previously known as "node-webkit" project.
 
-The document is structured in three major parts:
+>[NW.js](http://nwjs.io)让你能够直接从DOM中调用所有的[Node.js](https://nodejs.org/)[模块](https://www.npmjs.org/),开辟了使用Web技术编写应用程序的新方式。它之前的项目名称是"node-webkit"。
 
-* **For Users** - Documents for developing apps based on NW.js
-* **For Developers** - Documents for developers who want to extend NW.js
-* **References** - NW.js API references
+该文件的结构主要有三个部分:
 
-The source of the document is in [our git repo](https://github.com/nwjs/nw.js/tree/nw13/docs). PRs are welcome.
+* **对于用户** - 基于nw.js开发应用程序的文档
+* **对于开发人员** - 为想要扩展nw.js的开发人员提供文档
+* **引用** - NW.js API 参考
 
-## Table of Contents
+文档来源:git存储库(https://github.com/nwjs/nw.js/tree/nw13/docs).
 
-* [Homepage](index.md)
+### 表的内容
+
+* [主页](index.md)
 * For Users
     - [Getting Started](For Users/Getting Started.md)
     - [Debugging with DevTools](For Users/Debugging with DevTools.md)

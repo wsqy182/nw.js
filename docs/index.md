@@ -28,17 +28,29 @@
     - [From 0.12 to 0.13](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Migration/From%200.12%20to%200.13.md)
     
     - 高级
+    
         + [构建方式](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Build%20Flavors.md)
+        
         + [NW.js中的JS上下文](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/JavaScript%20Contexts%20in%20NW.js.md)
+        
         + [保护JS的源代码](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Protect%20JavaScript%20Source%20Code.md)
+        
         + [NW.js安全](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Security%20in%20NW.js.md)
+        
         + [支持Mac应用商店](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Support%20for%20Mac%20App%20Store.md)
+        
         + [测试ChromeDriver](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Test%20with%20ChromeDriver.md)
+        
         + [使用Flash插件](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Use%20Flash%20Plugin.md)
+        
         + [在Nw.js中使用原生](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Use%20NaCl%20in%20NW.js.md)
+        
         + [使用原生Node模块](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Use%20Native%20Node%20Modules.md)
+        
         + [内容验证](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Content%20Verification.md)
+        
         + [自定义菜单条](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Customize%20Menubar.md)
+        
 * For Developers
     - [Building NW.js](For Developers/Building NW.js.md)
     - [Contributing to NW.js](For Developers/Contributing to NW.js.md)

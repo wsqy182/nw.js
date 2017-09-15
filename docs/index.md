@@ -16,11 +16,17 @@
 
 * [主页](index.md)
 * For Users
-    - [Getting Started](For Users/Getting Started.md)
-    - [Debugging with DevTools](For Users/Debugging with DevTools.md)
-    - [Package and Distribute](For Users/Package and Distribute.md)
-    - [FAQ](For Users/FAQ.md)
-    - [From 0.12 to 0.13](For Users/Migration/From 0.12 to 0.13.md)
+
+    - [快速开始](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Getting%20Started.md)
+    
+    - [调试与开发工具](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Debugging%20with%20DevTools.md)
+    
+    - [包和分类](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Package%20and%20Distribute.md)
+    
+    - [常见问题](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/FAQ.md)
+    
+    - [From 0.12 to 0.13](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Migration/From%200.12%20to%200.13.md)
+    
     - Advanced
         + [Build Flavors](For Users/Advanced/Build Flavors.md)
         + [JavaScript Contexts in NW.js](For Users/Advanced/JavaScript Contexts in NW.js.md)

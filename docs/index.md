@@ -39,7 +39,7 @@
         
         + [支持Mac应用商店](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Support%20for%20Mac%20App%20Store.md)
         
-        + [测试ChromeDriver](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Test%20with%20ChromeDriver.md)
+        + [测试谷歌驱动](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Test%20with%20ChromeDriver.md)
         
         + [使用Flash插件](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Use%20Flash%20Plugin.md)
         

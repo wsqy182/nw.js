@@ -27,18 +27,18 @@
     
     - [From 0.12 to 0.13](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Migration/From%200.12%20to%200.13.md)
     
-    - Advanced
-        + [Build Flavors](For Users/Advanced/Build Flavors.md)
-        + [JavaScript Contexts in NW.js](For Users/Advanced/JavaScript Contexts in NW.js.md)
-        + [Protect JavaScript Source Code](For Users/Advanced/Protect JavaScript Source Code.md)
-        + [Security in NW.js](For Users/Advanced/Security in NW.js.md)
-        + [Support for Mac App Store](For Users/Advanced/Support for Mac App Store.md)
-        + [Test with ChromeDriver](For Users/Advanced/Test with ChromeDriver.md)
-        + [Use Flash Plugin](For Users/Advanced/Use Flash Plugin.md)
-        + [Use NaCl in NW.js](For Users/Advanced/Use NaCl in NW.js.md)
-        + [Use Native Node Modules](For Users/Advanced/Use Native Node Modules.md)
-        + [Content Verification](For Users/Advanced/Content Verification.md)
-        + [Customize Menubar](For Users/Advanced/Customize Menubar.md)
+    - 高级
+        + [构建方式](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Build%20Flavors.md)
+        + [NW.js中的JS上下文](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/JavaScript%20Contexts%20in%20NW.js.md)
+        + [保护JS的源代码](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Protect%20JavaScript%20Source%20Code.md)
+        + [NW.js安全](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Security%20in%20NW.js.md)
+        + [支持Mac应用商店](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Support%20for%20Mac%20App%20Store.md)
+        + [测试ChromeDriver](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Test%20with%20ChromeDriver.md)
+        + [使用Flash插件](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Use%20Flash%20Plugin.md)
+        + [在Nw.js中使用原生](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Use%20NaCl%20in%20NW.js.md)
+        + [使用原生Node模块](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Use%20Native%20Node%20Modules.md)
+        + [内容验证](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Content%20Verification.md)
+        + [自定义菜单条](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Customize%20Menubar.md)
 * For Developers
     - [Building NW.js](For Developers/Building NW.js.md)
     - [Contributing to NW.js](For Developers/Contributing to NW.js.md)

@@ -25,7 +25,7 @@
     
     - [常见问题](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/FAQ.md)
     
-    - [From 0.12 to 0.13](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Migration/From%200.12%20to%200.13.md)
+    - From 0.12 to 0.13(https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Migration/From%200.12%20to%200.13.md)
     
     - 高级
     

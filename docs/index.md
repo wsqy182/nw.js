@@ -16,11 +16,11 @@
 
 * [主页](index.md)
 * For Users
-    - [准备开始](For Users/Getting Started.md)
-    - [调试与开发工具](For Users/Debugging with DevTools.md)
-    - [包和分类](For Users/Package and Distribute.md)
-    - [常见问题](For Users/FAQ.md)
-    - [From 0.12 to 0.13](For Users/Migration/From 0.12 to 0.13.md)
+    - [Getting Started](For Users/Getting Started.md)
+    - [Debugging with DevTools](For Users/Debugging with DevTools.md)
+    - [Package and Distribute](For Users/Package and Distribute.md)
+    - [FAQ](For Users/FAQ.md)
+    - [From 0.12 to 0.13](For Users/Migration/From 0.12 to 0.13.md)
     - Advanced
         + [Build Flavors](For Users/Advanced/Build Flavors.md)
         + [JavaScript Contexts in NW.js](For Users/Advanced/JavaScript Contexts in NW.js.md)

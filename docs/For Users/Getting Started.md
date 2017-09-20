@@ -10,7 +10,8 @@ NW.js是基于[Chromium](http://www.chromium.org)和[Node.js](http://nodejs.org/
 
 ## Get NW.js
 
-你可以从官网http://nwjs.io上获取最新的安装文件.或者你也可以编译自己的NW.js程序 [Building NW.js](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Developers/Building%20NW.js.md).
+你可以从官网[http://nwjs.io](http://nwjs.io)上获取最新的安装文件.或者你也可以编译自己的NW.js程序 [Building NW.js](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Developers/Building%20NW.js.md)
+
 
 !!! tip建议您选择SDK构建风格来开发您的应用程序，这使您可以使用DevTools来调试您的应用程序。
 查看 [构建风格](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Build%20Flavors.md) 以区分不同的构建风格.

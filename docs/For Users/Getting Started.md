@@ -155,7 +155,7 @@ document.write('You are running on ', os.platform());
 ```
 
 你还可以通过[npm](https://www.npmjs.com/)去安装NW.js的模块去使用.
-You could also use the modules installed by [`npm`](https://www.npmjs.com/) with NW.js.
+
 
 !!! note "原生NODE模块"
 原生NODE模块,当使用`npm install`去构建的时候,是与NW.js的API不兼容的.如果要使用他们,你不得不重构这些源码[`nw-gyp`](https://github.com/nwjs/nw-gyp).[使用原生Node模块](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Use%20Native%20Node%20Modules.md)查看更多细节.
@@ -164,16 +164,17 @@ You could also use the modules installed by [`npm`](https://www.npmjs.com/) with
 
 查看 [调试与开发工具](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Debugging%20with%20DevTools.md) 去调试NW.js apps.
 
-查看 [包和分类](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Package%20and%20Distribute.md) for packaging and redistribute your app in production.
+查看 [包和分类](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Package%20and%20Distribute.md) 打包和重新分配你的App
 
-See [FAQ](FAQ.md) for issues you may encounter.
+查看 [FAQ(常见文件)](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/FAQ.md) 对于你可能遇到的问题.
 
-See [the migration notes](Migration/From 0.12 to 0.13.md), if you are migrating your app from NW.js 0.12 or older versions.
+查看 [迁移笔记](Migration/From 0.12 to 0.13.md), 如果你正在迁移你的App从NW.js 0.12或更老的版本.
 
-## Getting Help
+## 获取帮助
 
-There are lots of useful information on [NW.js wiki](https://github.com/nwjs/nw.js/wiki). The wiki is also open for everyone, and you are encouraged to publish your knowledge on wiki.
+这里有很多有用的信息 [NW.js wiki](https://github.com/nwjs/nw.js/wiki). 
+维基也为所有人开放,你也可以在维基上发表你的知识.
 
-You can also ask questions on [mail list on Google group](https://groups.google.com/forum/#!forum/nwjs-general) or chat on [Gitter](https://gitter.im/nwjs/nw.js).
+你也可以在 [谷歌组邮件列表](https://groups.google.com/forum/#!forum/nwjs-general) 或者[Gitter](https://gitter.im/nwjs/nw.js)聊天室问问题.
 
-Please report bugs or submit requirements on [GitHub](https://github.com/nwjs/nw.js/issues) to make NW.js more powerful.
+请在[GitHub](https://github.com/nwjs/nw.js/issues)报告Bug或者提交意见/要求,让Nw.js更强大.

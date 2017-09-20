@@ -1,26 +1,27 @@
-# Getting Started with NW.js
+# 开始使用NW.js
 ---
 
 [TOC]
 
-## What can NW.js do?
+## NW.js 能做什么?
 
-NW.js is based on [Chromium](http://www.chromium.org) and [Node.js](http://nodejs.org/). It lets you call Node.js code and modules directly from browser and also use Web technologies in your app. Further, you can easily package a web application to a native application.
+NW.js是基于[Chromium](http://www.chromium.org)和[Node.js](http://nodejs.org/).
+它让你可以调用Node.js代码和模块从浏览器,也可以在你的应用程序中使用Web技术,而且你可以很容易地将一个Web应用程序打包到一个本地应用程序中。
 
 ## Get NW.js
 
-You can get the latest binaries from official website http://nwjs.io. Or you can also build NW.js binaries yourself by following the instructions in [Building NW.js](../For Developers/Building NW.js.md).
+你可以从官网http://nwjs.io上获取最新的安装文件.或者你也可以编译自己的NW.js程序 [Building NW.js](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Developers/Building%20NW.js.md).
 
-!!! tip
-    You are recommended to choose SDK build flavor to develop your app, which enables you to use DevTools to debug your app. See [Build Flavors](Advanced/Build Flavors.md) for the differences between build flavors.
+!!! tip建议您选择SDK构建风格来开发您的应用程序，这使您可以使用DevTools来调试您的应用程序。
+查看 [构建风格](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Build%20Flavors.md) 以区分不同的构建风格.
 
-## Write NW.js App
+## 编写 NW.js 应用程序
 
-### Example 1 - Hello World
+### 例子 1 - Hello,World
 
-This the basic example shows how to write an NW.js app.
+这是个基本的例子用来显示如何去编写一个NW.js 的应用程序.
 
-**Step 1.** Create `package.json`:
+**Step 1.** 创建文件 `package.json`:
 
 ```json
 {
@@ -29,17 +30,24 @@ This the basic example shows how to write an NW.js app.
 }
 ```
 
-`package.json` is the manifest file in your app. It is written in [JSON format](http://www.json.org/). The `main` field figures out the first page opened by the NW.js if referenced to an HTML file, `"index.html"` in this example. And the `name` field is the unique name used among NW.js apps. See [Manifest Format](../References/Manifest Format.md) for more details.
+`package.json` 是你的应用程序的清单文件. 它是用[JSON格式](http://www.json.org/)编写的. main字段表示打开NW.js文件后第一个加载的html页面,比如这个例子中的'index.html'.
+name字段是这个NW.js构建的APP的唯一名字.
+查看[Manifest格式](https://github.com/wsqy182/nw.js/blob/nw25/docs/References/Manifest%20Format.md) 得知更多细节.
 
-!!! tip "Use JS File as Main"
-    You can set JS file as in `"main"` field as well, like `"main.js"`. Then the JS file will be loaded in the background page on start and no window is opened by default. Usually you can do some initialization and open the window manually later. For example,
+!!! tip 
+"使用JS文件作为main字段的值".
+你可以设置JS文件作为main字段的值,比如"main.js".
+这个js文件当程序启动且没有窗口的时候加载.
+通常情况下你可以在打开窗口前在做一些初始化的工作.
+例子:
+
     ```javascript
     // initialize your app
     // and ...
     nw.Window.open('index.html', {}, function(win) {});
     ```
 
-**Step 2.** Create `index.html`:
+**Step 2.** 创建文件 `index.html`:
 
 ```html
 <!DOCTYPE html>
@@ -53,25 +61,27 @@ This the basic example shows how to write an NW.js app.
 </html>
 ```
 
-This is the normal HTML file. You can use any web technologies supported by latest browsers.
+这是一个普通的HTML文件,您可以使用最新浏览器支持的任何web技术。
 
-**Step 3.** Run your app
+**Step 3.** 运行你的APP
 
 ```bash
 cd /path/to/your/app
 /path/to/nw .
 ```
 
-`/path/to/nw` is the binary file of NW.js. On Windows, it's `nw.exe`; On Linux, it's `nw`; On Mac, it's `nwjs.app/Contents/MacOS/nwjs`.
+`/path/to/nw` 是NW.js的二进制文件. 在windows中, 对应的是 `nw.exe`; 在 Linux中, 他是nw.js `nw`; 在 Mac中, 对应的是 `nwjs.app/Contents/MacOS/nwjs`.
 
-!!! tip "Drag &amp; Drop on Windows"
-    On Windows, you can drag the `folder containing package.json` to `nw.exe` to run your app.
+!!! tip
+    在windows中, 你可以拖动 `包含package.json的文件夹` to `nw.exe` 去运行的你的App.
 
-### Example 2 - Using NW.js APIs
+### 例子 2 - 使用 NW.js APIs
 
-All NW.js APIs are loaded in `nw` object globally and can be used directly in JavaScript files. See [API References](../index.md#references) for full list of supported APIs.
 
-This example shows how to create a native context menu in your NW.js app. You can create `index.html` with following content:
+所有的Nw.js的API都在nw这个全局对象中,并且你可以在任何一个JS文件中使用它.[API 引用](https://github.com/wsqy182/nw.js/blob/nw25/docs/index.md#references)中可以查看所有支持的API的清单.
+
+这个例子告诉在你的NW.jsAPP中如何去创建一个原生的上下文菜单.你可以使用下面的内容创建`index.html`.
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -83,10 +93,10 @@ This example shows how to create a native context menu in your NW.js app. You ca
 <p>'Right click' to show context menu.</p>
 
 <script>
-// Create an empty context menu
+// 创建一个空的上下文菜单
 var menu = new nw.Menu();
 
-// Add some items with label
+//添加菜单项
 menu.append(new nw.MenuItem({
   label: 'Item A',
   click: function(){
@@ -96,12 +106,12 @@ menu.append(new nw.MenuItem({
 menu.append(new nw.MenuItem({ label: 'Item B' }));
 menu.append(new nw.MenuItem({ type: 'separator' }));
 menu.append(new nw.MenuItem({ label: 'Item C' }));
-
-// Hooks the "contextmenu" event
+// 挂载"contextmenu"事件
 document.body.addEventListener('contextmenu', function(ev) {
+  // 防止显示默认的上下文菜单
   // Prevent showing default context menu
   ev.preventDefault();
-  // Popup the native context menu at place you click
+  // 在你点击的地方弹出原生上下文菜单
   menu.popup(ev.x, ev.y);
 
   return false;
@@ -112,20 +122,21 @@ document.body.addEventListener('contextmenu', function(ev) {
 </html>
 ```
 
-... then run your app:
+... 然后运行的APP:
 ```bash
 cd /path/to/your/app
 /path/to/nw .
 ```
 
 !!! tip "require('nw.gui')"
-    The legacy way of loading NW.js APIs using `require('nw.gui')` is also supported. It returns the same `nw` object.
+使用 `require('nw.gui')`加载NW.js APIs的传统方式也是支持的.它返回相同的'nw'对象.
 
-### Example 3 - Using Node.js API
+### 例子 3 - 使用 Node.js API
 
-You can call node.js and modules directly from the DOM. So it enables endless possibilities for writing apps with nw.js.
+你可以在dom中直接调用node.js和相应模块.因此,它为使用NW.js编写应用程序提供了无限的可能性.
 
-This example shows how to query the OS platform with `os` module of Node.js. Simply create the `index.html` file with following content and run it with NW.js.
+这个示例展示了了如何使用node.js的"OS"模块去查询操作系统.简单的使用下面的内容创建一个`index.html` 文件,然后用NW.js运行.
+
 
 ```html
 <!DOCTYPE html>
@@ -143,16 +154,17 @@ document.write('You are running on ', os.platform());
 </html>
 ```
 
+你还可以通过[npm](https://www.npmjs.com/)去安装NW.js的模块去使用.
 You could also use the modules installed by [`npm`](https://www.npmjs.com/) with NW.js.
 
-!!! note "Native Node Modules"
-    Native Node modules, built when running `npm install`, are not compatible with NW.js ABI. To use them, you have to rebuild it from source code with [`nw-gyp`](https://github.com/nwjs/nw-gyp). See [Use Native Node Modules](Advanced/Use Native Node Modules.md) for details.
+!!! note "原生NODE模块"
+原生NODE模块,当使用`npm install`去构建的时候,是与NW.js的API不兼容的.如果要使用他们,你不得不重构这些源码[`nw-gyp`](https://github.com/nwjs/nw-gyp).[使用原生Node模块](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/Use%20Native%20Node%20Modules.md)查看更多细节.
 
-## What's next
+## 接下来呢?
 
-See [Debugging with DevTools](Debugging with DevTools.md) for debugging NW.js apps.
+查看 [调试与开发工具](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Debugging%20with%20DevTools.md) 去调试NW.js apps.
 
-See [Package and Distribute](Package and Distribute.md) for packaging and redistribute your app in production.
+查看 [包和分类](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Package%20and%20Distribute.md) for packaging and redistribute your app in production.
 
 See [FAQ](FAQ.md) for issues you may encounter.
 

@@ -17,8 +17,6 @@ Alternatively, you may open DevTools programmatically using NW.js API [win.sho
 
 NW.js默认是运行在[独立的上下文模式](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/JavaScript%20Contexts%20in%20NW.js.md#separate-context-mode)上的.去调试NODE.js模块,你可以右键点击APP,选择""InspectBackgroundPage"(检视背景页).当走到NODE.js 的debugeer,背景页的开发工具会自动获取焦点且在该条语句(debugger处)停止运行.
 
-If your app is running under [Mixed Context Mode](Advanced/JavaScript Contexts in NW.js.md#mixed-context-mode), Node.js modules can be directly debugged within the same DevTools window of the window. See [JavaScript Contexts in NW.js](Advanced/JavaScript Contexts in NW.js.md) for the differences.
-
 如果你的APP运行在[Mixed Context Mode(混合上下文模式)](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/JavaScript%20Contexts%20in%20NW.js.md#mixed-context-mode),Node.js模块可以直接在窗口的开发者工具中进行调试是,参见[JavaScript Contexts in NW.js(NW.js中的JS上下文)](https://github.com/wsqy182/nw.js/blob/nw25/docs/For%20Users/Advanced/JavaScript%20Contexts%20in%20NW.js.md)去比较差异.
 
 ## 远程调试
